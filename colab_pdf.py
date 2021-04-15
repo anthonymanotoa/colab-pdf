@@ -1,4 +1,4 @@
-def colab_pdf(file_name, notebookpath="/content/drive/MyDrive/Colab Notebooks/"):
+def colab_pdf(file_name, notebookpath="/content/drive/MyDrive/Universidad/10 Ciclo/Python/"):
     import os
 
     # Checking if file_name passed is a sring.
@@ -9,7 +9,7 @@ def colab_pdf(file_name, notebookpath="/content/drive/MyDrive/Colab Notebooks/")
 
     # Using the defaults used by google.colab
     drive_mount_point = "/content/drive/"
-    gdrive_home = os.path.join(drive_mount_point, "My Drive/")
+    gdrive_home = os.path.join(drive_mount_point, "My Drive/Universidad/10 Ciclo/Python/")
 
     # If the drive is not already mounted, attempt to mount it.
     if not os.path.isdir(gdrive_home):
