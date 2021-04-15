@@ -8,8 +8,8 @@ def colab_pdf(file_name, notebookpath="/content/drive/MyDrive/Universidad/10 Cic
         )
 
     # Using the defaults used by google.colab
-    drive_mount_point = "/content/drive/"
-    gdrive_home = os.path.join(drive_mount_point, "My Drive/Universidad/10 Ciclo/Python/")
+    drive_mount_point = "/content/drive/MyDrive/Universidad/10 Ciclo/Python/"
+    gdrive_home = os.path.join(drive_mount_point, "MyDrive/Universidad/10 Ciclo/Python/")
 
     # If the drive is not already mounted, attempt to mount it.
     if not os.path.isdir(gdrive_home):
